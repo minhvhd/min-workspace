@@ -1,0 +1,10 @@
+@use "common/mixins/reset" as reset-mixin;
+@use "../lib/common/mixins/palette" as palette-mixin;
+
+@mixin setup($is-material: null, $palette-config: null) {
+  :root {
+    @include palette-mixin.setup($palette-config);
+  }
+
+  @include reset-mixin.setup();
+}

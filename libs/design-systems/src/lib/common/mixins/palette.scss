@@ -1,0 +1,15 @@
+@mixin setup($color-map: null) {
+  @if ($color-map == null) {
+    $color-map: ();
+  }
+
+  $colors: $color-map;
+
+  @each $color-key, $color-steps in $colors {
+    @each $step-key, $step-value in $color-steps {
+      @if $step-key != 'contrast' {
+        --#{$color-key}-#{$step-key}: #{$step-value};
+      }
+    }
+  }
+}

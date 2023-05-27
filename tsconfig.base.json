@@ -15,17 +15,24 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@libs/shared/data-access": ["libs/shared/data-access/src/index.ts"],
-      "@libs/shared/ui": ["libs/shared/ui/src/index.ts"],
-      "@libs/shared/utils": ["libs/shared/utils/src/index.ts"],
-      "@min-blog/data-access": [
-        "libs/min-blog/data-access/src/index.ts"
-      ],
+      "@min-blog/data-access": ["libs/min-blog/data-access/src/index.ts"],
       "@min-blog/ui": ["libs/min-blog/ui/src/index.ts"],
       "@min-blog/utils": ["libs/min-blog/utils/src/index.ts"],
+      "@shared/ui/checkbox": [
+        "libs/shared/ui/checkbox/src/index.ts"
+      ],
+      "@shared/ui/input-error": [
+        "libs/shared/ui/input-error/src/index.ts"
+      ],
       "@playground/data-access": ["libs/playground/data-access/src/index.ts"],
       "@playground/ui": ["libs/playground/ui/src/index.ts"],
-      "@playground/utils": ["libs/playground/utils/src/index.ts"]
+      "@playground/utils": ["libs/playground/utils/src/index.ts"],
+      "@shared/data-access/models": [
+        "libs/shared/data-access/models/src/index.ts"
+      ],
+      "@shared/data-access/services": [
+        "libs/shared/data-access/services/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
