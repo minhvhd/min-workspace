@@ -9,7 +9,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "min",
+            "prefix": "minWorkspace",
             "style": "camelCase"
           }
         ],
@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "min",
+            "prefix": "min-workspace",
             "style": "kebab-case"
           }
         ]
