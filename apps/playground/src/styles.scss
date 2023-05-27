@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@use "libs/design-systems/src/lib/index" as design-systems;
+@use "../../../libs/design-systems/src/lib/common/variables/palette" as palette;
+
+@include design-systems.setup(null, (
+  base: palette.$base,
+  primary: palette.$green-palette,
+  error: palette.$red-palette,
+  grey: palette.$grey-palette,
+  warning: palette.$yellow-palette,
+  success: palette.$blue-palettes,
+));

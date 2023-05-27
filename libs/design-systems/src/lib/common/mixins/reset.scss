@@ -1,0 +1,12 @@
+@mixin setup() {
+  body, html, p, h1, h2, h3, h4, h5, span {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  label, input:not([type="checkbox"]), fieldset, button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

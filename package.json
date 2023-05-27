@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "playground": "nx serve playground --port=4200"
+    "playground": "nx serve playground --port=4400"
   },
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "@angular/platform-browser": "~16.0.0",
     "@angular/platform-browser-dynamic": "~16.0.0",
     "@angular/router": "~16.0.0",
+    "@ngrx/component-store": "^16.0.0",
     "@nx/angular": "16.2.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

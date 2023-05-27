@@ -1,0 +1,84 @@
+$contrast: (
+  50: #000000,
+  100: #000000,
+  200: #000000,
+  300: #000000,
+  400: #000000,
+  500: #ffffff,
+);
+
+$green-palette: (
+  50: #eef7ea,
+  100: #ddefd6,
+  200: #bbdfad,
+  300: #9acf83,
+  400: #78bf5a,
+  500: #56af31,
+  600: #458c27,
+  700: #34691d,
+  800: #224614,
+  900: #11230a,
+  contrast: $contrast,
+);
+
+$grey-palette: (
+  50: #f9fafb,
+  100: #f3f4f6,
+  200: #e5e7eb,
+  300: #d2d6db,
+  400: #9da4ae,
+  500: #6c737f,
+  600: #4d5761,
+  700: #384250,
+  800: #1f2a37,
+  900: #111927,
+  contrast: $contrast,
+);
+
+$blue-palettes: (
+  50: #e7f1f8,
+  100: #eef4ff,
+  200: #e0eaff,
+  300: #c7d7fe,
+  400: #3e8bc5,
+  500: #0e6eb6,
+  600: #0b5892,
+  700: #444ce7,
+  800: #3538cd,
+  900: #2d31a6,
+  contrast: $contrast,
+);
+
+$red-palette: (
+  50: #fae8ea,
+  100: #f5d0d5,
+  200: #eca2ab,
+  300: #e27382,
+  400: #d94558,
+  500: #cf162e,
+  600: #a61225,
+  700: #910f20,
+  800: #680b17,
+  900: #530912,
+  contrast: $contrast,
+);
+
+$yellow-palette: (
+  50: #fffcf5,
+  100: #fffaeb,
+  200: #fef0c7,
+  300: #fedf89,
+  400: #fec84b,
+  500: #fdb022,
+  600: #f79009,
+  700: #dc6803,
+  800: #b54708,
+  900: #93370d,
+  contrast: $contrast,
+);
+
+$base: (
+  1: #000000,
+  2: #ffffff,
+  contrast: $contrast,
+);
