@@ -1,1 +1,23 @@
-form works
+<form [formGroup]="form" (ngSubmit)="onSubmit($event)">
+  <div class="form-field">
+    <label for="firstName">First Name</label>
+    <input [errorStateMatcher]="errorStateMatcher" id="firstName" type="text" formControlName="firstName"/>
+  </div>
+  <div class="form-field">
+    <label for="lastName">Last Name</label>
+    <input id="lastName" type="text" formControlName="lastName"/>
+  </div>
+  <fieldset formGroupName="password">
+    <legend>Password</legend>
+    <div class="form-field">
+      <label for="password">Create Password</label>
+      <input formControlName="password" type="password" id="password" placeholder="Enter password...">
+    </div>
+    <div class="form-field">
+      <label for="confirm-password">Confirm Password</label>
+      <input formControlName="confirmPassword" type="password" id="confirm-password" placeholder="Enter password...">
+    </div>
+  </fieldset>
+  <button>Submit</button>
+</form>
+
